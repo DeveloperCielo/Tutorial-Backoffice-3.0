@@ -2,7 +2,6 @@
 title: Backoffice Cielo
 
 toc_footers:
-  - <a href='/Checkout-Cielo/'>Manual Checkout Cielo</a>
   - <a href='/Checkout-FAQ/'>Perguntas Frequêntes</a>
 
 search: true
