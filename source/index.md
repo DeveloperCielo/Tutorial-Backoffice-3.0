@@ -2,6 +2,7 @@
 title: Backoffice Cielo
 
 toc_footers:
+  - <a href='/Webservice-3.0/'>Integração API Cielo eCommerce</a>
   - <a href='/Checkout-FAQ/'>Perguntas Frequêntes</a>
 
 search: true
