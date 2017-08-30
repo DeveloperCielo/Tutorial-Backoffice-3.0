@@ -21,8 +21,6 @@ O Backoffice da API Cielo Ecommerce permite que o lojista possa acessar 4 menus 
 3.	**Extrato de cobrança** – Detalha os valores cobradas pela a Cielo por cada função utilizada na API Cielo Ecommerce.
 4.	**Configuração da recorrência** – Alterar quantidades de tentativas de execução de recorrências em caso de cartão negado.
 
-
-
 ## Acessando o Backoffice
 
 Para acessar o Backoffice, é necessário que o lojista realize login no Site Cielo, inserindo sua Afiliação (Nº de estabelecimento) e Usuário:
@@ -70,7 +68,7 @@ Essa tela permite buscar todas as transações realizadas com sucesso na API Cie
 Sobre os Filtros:
 
 |Filtros|Descrição|
-|-------|---------|
+|---|---|
 |Tid|	Identificador da transação Cielo. Retornado via response e disponivel no site Cielo|
 |EC|	Número da Afiliação Cielo|
 |Payment Id|	Identificador da transação e-commerce|
@@ -78,7 +76,7 @@ Sobre os Filtros:
 |NSU|	Identificação da autorização. Enviado via response|
 |Código de Erro|	Código retornado caso uma transação gere um erro.|
 |Status da Transação|**Cancelado** - Transação cancelada pelo lojista<br>**Estornado** - Transações canceladas com menos de 24 horas<br>**Não Autorizado** - Transações negadas pelo Autorizador Cielo<br>**Não Pago** - Transações autorizadas, mas não capturadas<br>**Pago** - Transações capturadas<br>|
-|Tipos de meio de pagamento	| Grupo de meios de pagamento como Boletos ou cartão de crédito. Não diferencia |bandeira ou banco.|
+|Tipos de meio de pagamento	|Grupo de meios de pagamento como Boletos ou cartão de crédito. Não diferencia|bandeira ou banco.|
 |Meios de pagamento|	Meio de pagamento especifico usado na transação (EX: Boleto Bradesco)|
 |Análise de Fraude|	Qual o status de antifraude da transação no momento da pesquisa|
 
